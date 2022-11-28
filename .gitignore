@@ -3,4 +3,4 @@
 **.json
 tmp/
 */spark-warehouse/*
-*.ipynb
+**.ipynb
