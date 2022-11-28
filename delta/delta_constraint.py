@@ -13,7 +13,6 @@ spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
 
 # 3.1 Criando DataFrame de Usuários
-
 df_usuarios = spark.createDataFrame(
     [
         ("Thiago", 12, "00011122233"),
