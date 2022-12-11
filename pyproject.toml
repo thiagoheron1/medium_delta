@@ -1,11 +1,14 @@
 [tool.poetry]
 name = "delta"
 version = "0.1.0"
+description = ""
+authors = ["thiagoheronavila@gmail.com"]
 
 [tool.poetry.dependencies]
 python = "3.9"
 delta-spark = "2.1.1"
 pyspark = "3.3.1"
+pandas = "1.5.2"
 
 [tool.poetry.dev-dependencies]
 

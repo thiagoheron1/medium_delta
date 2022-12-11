@@ -1,8 +1,8 @@
 # 4.1. Configuração do PySpark + Delta
-from delta import *
+from delta import configure_spark_with_delta_pip
 from pyspark.sql import SparkSession
 
-builder = SparkSession.builder.appName("DeltaLake") \
+builder = SparkSession.builder.appName("Delta") \
     .config("spark.driver.host", "localhost") \
     .config("spark.submit.deployMode", "client") \
     .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
